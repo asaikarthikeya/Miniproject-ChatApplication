@@ -166,7 +166,7 @@ body{
     font-size: 18px;
     background-color: Transparent;
     text-align: right;
-    color: #ccc;
+    color: black;
   }
   #chat_input_send.enabled{
     color: #D64045;
@@ -182,7 +182,7 @@ body{
     justify-content: center;
     align-items: center;
   
-    float:none;
+    /*float: left;  */
     margin-top: 20px;
   }
   #chat_logout{
@@ -224,9 +224,6 @@ body{
     font-size: 14px;
     margin-top: 5px;
   }
-  
-  
-  
   
   .enabled{
     transition: background-color 0.5s;
@@ -285,10 +282,13 @@ body{
   }
   /* Track */
   ::-webkit-scrollbar-track {
-    background:#ccc;
+    background:black;
   }
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #D64045;
     border-radius: 5px;
   }
+  
+  
+  
